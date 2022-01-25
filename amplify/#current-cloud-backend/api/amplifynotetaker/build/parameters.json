@@ -1,0 +1,14 @@
+{
+    "CreateAPIKey": 0,
+    "AppSyncApiName": "amplifynotetaker",
+    "DynamoDBBillingMode": "PAY_PER_REQUEST",
+    "DynamoDBEnableServerSideEncryption": false,
+    "AuthCognitoUserPoolId": {
+        "Fn::GetAtt": [
+            "authamplifynotetakerda866cf6",
+            "Outputs.UserPoolId"
+        ]
+    },
+    "S3DeploymentBucket": "amplify-amplifynotetaker-dev-115657-deployment",
+    "S3DeploymentRootKey": "amplify-appsync-files/7d70474a25be4036e3fddabe527e40f167d56ce6"
+}
